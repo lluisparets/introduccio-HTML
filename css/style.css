@@ -1,4 +1,5 @@
 
+
 /*Botons index*/
 #menu ul li {
     background-color: blue;
@@ -8,7 +9,14 @@
     margin: 4px 2px;
     
   }
-   #menu ul li a{
+   #menu ul li a {
       text-decoration: none;
       color:red;
+  }
+
+  .activa {
+
+      border: grey;
+      background-color: green;
+      color: hotpink;
   }
