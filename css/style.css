@@ -16,7 +16,10 @@
 
   .activa {
 
-      border: grey;
-      background-color: green;
-      color: hotpink;
+    background-color: rgb(127, 127, 221);
+    color:red;
+    /*padding: 15px 32px;*/
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
   }
