@@ -1,7 +1,7 @@
 
 
 /*Botons index*/
-#menu ul li {
+  #menu ul li {
     background-color: blue;
     padding: 15px 32px;
     display: inline-block;
@@ -18,8 +18,64 @@
 
     background-color: rgb(127, 127, 221);
     color:red;
-    /*padding: 15px 32px;*/
     display: inline-block;
     font-size: 16px;
     margin: 4px 2px;
+  } 
+  
+  ul li a :hover {
+    background-color:black;
+    color: white;
   }
+
+  /*Bordes horari*/
+
+  table, th, td {
+    border-style: ridge;
+    border-color: black;
+    border-width: 3px;
+    text-align: center;
+    
+    }
+
+  tr :hover {
+    background-color:black;
+    color: white;
+  }
+
+  /*Colors assignatures*/
+
+  .dia {
+  background-color: blue;
+  color: white;
+}
+
+  .hores {
+  background-color: blueviolet;  
+  color: brown; 
+}
+  .Sistemes{
+  background-color: burlywood;
+  color: rgb(82, 4, 4);
+}
+  .Serveis{
+  background-color: cadetblue;
+  color: rgb(82, 4, 4);
+}
+
+  .Seguretat{
+  background-color: rgb(113, 118, 192);
+  color: rgb(82, 4, 4);
+  }
+  .EIE{
+  background-color: cyan;
+  color: rgb(82, 4, 4);
+}
+    .Aplicacions{
+  background-color: yellow;
+  color: rgb(82, 4, 4);
+}
+  .Pati{
+  background-color: thistle;
+  color: rgb(82, 4, 4);
+}
