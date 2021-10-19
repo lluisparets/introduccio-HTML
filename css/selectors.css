@@ -45,7 +45,7 @@ div p{
 }
 
 /*Fes que només els inputs de type text tenguin un fons gris*/
-input text{
+input[type="text"]{
     background-color: grey;
 }
 
