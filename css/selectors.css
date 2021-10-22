@@ -1,3 +1,30 @@
+/*menu navegacio*/
+  #menu ul li {
+    background-color: blue;
+    padding: 15px 32px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    
+  }
+   #menu ul li a {
+      text-decoration: none;
+      color:red;
+  }
+  #menu ul li a:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .activa {
+
+    background-color: rgb(127, 127, 221);
+    color:red;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+  } 
+  
 /* dona al <body> element un color de fons de #bdc3c7*/
 body{
     background-color: #bdc3c7;
