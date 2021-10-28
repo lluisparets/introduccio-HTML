@@ -1,20 +1,4 @@
-/*Botons index*/
-  #menu ul li {
-    background-color: blue;
-    padding: 15px 32px;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    
-  }
-   #menu ul li a {
-      text-decoration: none;
-      color:red;
-  }
-  #menu ul li a:hover {
-    background-color: black;
-    color: white;
-  }
+/*Classe activa
 
   .activa {
 
@@ -24,7 +8,7 @@
     font-size: 16px;
     margin: 4px 2px;
   } 
-  
+  */
 
   /*Bordes horari*/
 
