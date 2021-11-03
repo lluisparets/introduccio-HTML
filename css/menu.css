@@ -1,7 +1,3 @@
-* {
-  margin:0px;
-  padding:0px;
-}
 
 header {
   margin:auto;
@@ -11,13 +7,14 @@ header {
 
 ul, ol {
   list-style:none;
+  display: inline-flex;
 }
 
-.nav > li {
+#menu > li {
   float:left;
 }
 
-.nav li a {
+#menu li a {
   background-color:#000;
   color:#fff;
   text-decoration:none;
@@ -25,25 +22,25 @@ ul, ol {
   display:block;
 }
 
-.nav li a:hover {
+#menu li a:hover {
   background-color:#434343;
 }
 
-.nav li ul {
+#menu li ul {
   display:none;
   position:absolute;
   min-width:140px;
 }
 
-.nav li:hover > ul {
+#menu li:hover > ul {
   display:block;
 }
 
-.nav li ul li {
+#menu li ul li {
   position:relative;
 }
 
-.nav li ul li ul {
+#menu li ul li ul {
   right:-140px;
   top:0px;
 }
