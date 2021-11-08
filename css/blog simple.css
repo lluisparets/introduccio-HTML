@@ -9,4 +9,14 @@ linia divisora d'articles https://codepen.io/Oddgson/pen/VPrYbv
 *{
     margin: 0px;
     padding: 0px;
+    font-family: 'Roboto', sans-serif;;
+}
+
+body{
+    border: 10px solid #bdc3c7;
+    margin: 10px auto;
+    width: 75%;
+    padding: 15px;
+    font-size: 15px;
+
 }
