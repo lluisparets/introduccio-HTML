@@ -34,6 +34,10 @@ nav li{
     background-color: #bdc3c7;
     padding-top: 8px;
 }
+nav li a{
+	text-decoration: none;
+	color: black;
+}
 /*Pasar per damunt*/
 nav li:hover{
     background-color: #323638;
