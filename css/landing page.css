@@ -9,6 +9,7 @@
 body{
     font-size: 17px;
     line-height: 1.5;
+    color: var(--primary-color);
 }
 /*centrar imatge*/
 #showcase{
@@ -23,6 +24,56 @@ body{
     font-size: 1.3em;
 }
 #showcase::after{
+   content:"";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color:rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+}
+
+h1, p, a{
+    z-index: 2;
+}
+
+a{
+    background-color: var(--primary-color);
+    text-decoration: none;
+    padding: 3px;
+    color: white;
+    border-radius: 8px;
+}
+
+a:hover{
+    color: var(--primary-color);
+    background-color: white;
+}
+
+
+/*Part d'abaix*/
+.fonsorange{
+      background-color: var(--primary-color);
+    color: #fff;  
+}
+
+
+#section-a{
+    text-align: center;
+    padding: 20px;
     
 }
 
+#section-b{
+    background-color: #f4f4f4;
+
+}
+#section-c{
+    display: flex;
+
+}
+#section-c div{
+    padding: 20px;
+}
